@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Geostage Mineragraphy</string>
+    <string name="welcome_message">I am pleased to present You our mineralogical services related to the preparation and study of ore/rock samples under a microscope.</string>
+    <string name="welcome_message_1">In our team there are excellent specialists in mineragraphic, petrographic and geochemical studies with about 40 years of experience. \n Sincerely yours, \n eng. Dimitar Petrov, PhD</string>
+    <string name="intro">Contact details: \n (just click)</string>
+    <string name="address"> 2, Prof. Boyan Kamenov Str. \n 1700 Sofia, Bulgaria</string>
+    <string name="telephone"> +359 2 8060356</string>
+    <string name="email"> dimitar@geostage.info</string>
+    <string name="website">You can visit our website and view the price list for mineralogical studies here:</string>
+    <string name="visit_website">Visit the Geostage website</string>
+    <string name="button_return">Return</string>
+    <string name="button_Send">Send results</string>
+</resources>

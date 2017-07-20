@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scroll_view"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/linear_layout">
+
+        <TextView
+            style="@style/text"
+            android:text="@string/welcome_message" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/image"
+            android:src="@drawable/micropic"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            style="@style/text"
+            android:text="@string/welcome_message_1" />
+
+        <View style="@style/horizontal_line" />
+
+        <LinearLayout style="@style/question_linear_layout">
+
+            <TextView
+                style="@style/contacts_text"
+                android:text="@string/intro" />
+
+            <ImageView
+                android:id="@+id/bg_map"
+                style="@style/image"
+                android:onClick="address"
+                android:src="@drawable/address_map"
+                tools:ignore="contentDescription" />
+
+            <TextView
+                style="@style/contacts_text"
+                android:drawableLeft="@drawable/ic_location_on_black_18dp"
+                android:drawableStart="@drawable/ic_location_on_black_18dp"
+                android:onClick="address"
+                android:text="@string/address" />
+
+            <TextView
+                style="@style/contacts_text"
+                android:drawableLeft="@drawable/ic_call_black_18dp"
+                android:drawableStart="@drawable/ic_call_black_18dp"
+                android:onClick="phone"
+                android:text="@string/telephone" />
+
+            <TextView
+                style="@style/contacts_text"
+                android:drawableLeft="@drawable/ic_email_black_18dp"
+                android:drawableStart="@drawable/ic_email_black_18dp"
+                android:onClick="mail"
+                android:text="@string/email" />
+
+            <View style="@style/horizontal_line" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/text"
+            android:text="@string/website" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="view_website"
+            android:text="@string/visit_website" />
+    </LinearLayout>
+</ScrollView>
