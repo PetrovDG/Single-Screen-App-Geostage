@@ -1,5 +1,5 @@
 # Single-Screen-App-Geostage
-A single screen app that displays information about a fictional small business.
+A single screen app that displays information about small business.
 
 PROJECT SPECIFICATION<br>
 Your design must include:<br>
